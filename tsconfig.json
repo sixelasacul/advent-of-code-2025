@@ -6,7 +6,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "target": "ES2022",
+    "target": "ESNext",
     "verbatimModuleSyntax": true,
     "allowJs": true,
     "resolveJsonModule": true,
@@ -21,8 +21,8 @@
     "module": "NodeNext",
 
     // Code not in DOM
-    "lib": ["ES2022"],
+    "lib": ["ESNext"],
     "outDir": "dist"
   },
-  "include": ["src"],
+  "include": ["src"]
 }
